@@ -1,4 +1,4 @@
-import models from './tetra-challenge-models.json' assert { type: 'json' };
+import models from './zometriangles.json' assert { type: 'json' };
 
 const table = document.getElementById( "partsTable" );
 const tbody = table.createTBody();
