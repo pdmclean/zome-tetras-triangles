@@ -32,9 +32,12 @@ function fillRow(tr, tetra) {
   let td = tr.insertCell();
   td.className = url ? "ident done" : "ident todo";
   td.innerHTML = id;
-  // Balls column
+
+  // Sides column
   td = tr.insertCell();
-  td.className = "Name";
+  const sidesTd = td; // populate later
+  sidesTd.className = "sides";
+  sidesTd.innerHTML = tetra.sides
 }
 
 function switchModel( url ) {
