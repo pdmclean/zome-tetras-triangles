@@ -1,0 +1,21 @@
+<svg id="mySVG"
+  version="1.1"
+     baseProfile="full"
+     width="1000" height="866"
+     xmlns="http://www.w3.org/2000/svg"
+	 fill="none"
+	 stroke="black">
+
+  <polyline points="0,866 1000,866 500,0 0,866" />
+  <polyline points="500,866 750,433 250,433 500,866" />
+  <polyline points="500,0 500,866" />
+  <polyline points="0,866 750,433" />
+  <polyline points="1000,866 250,433" />
+  <circle cx="500" cy="577.333" r="288.667" />
+
+  <circle id="delta" cx="500" cy="577.333" r="5" stroke="yellow"/>
+  <circle cx="500" cy="433" r="5" stroke="green"/>
+  <circle cx="50%" cy="50%" r="10" stroke=""/>
+  <ellipse cx="500" cy="33" rx="10" ry="20" stroke="blue"/>
+  
+  </svg>
