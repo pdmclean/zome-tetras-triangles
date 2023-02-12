@@ -33,11 +33,37 @@ function fillRow(tr, tetra) {
   td.className = url ? "ident done" : "ident todo";
   td.innerHTML = id;
 
+  // t column
+  td = tr.insertCell();
+  const tTd = td; // populate later
+  tTd.className = "t";
+  tTd.innerHTML = tetra.t;
+    
   // Sides column
   td = tr.insertCell();
   const sidesTd = td; // populate later
   sidesTd.className = "sides";
-  sidesTd.innerHTML = tetra.sides
+  sidesTd.innerHTML = tetra.sides;
+    
+  // Angles column
+  td = tr.insertCell();
+  const anglesTd = td; // populate later
+  anglesTd.className = "angles";
+  anglesTd.innerHTML = tetra.angles;
+    
+
+  // Plane column
+  td = tr.insertCell();
+  const planeTd = td; // populate later
+  planeTd.className = "plane";
+  planeTd.innerHTML = tetra.plane;
+    
+
+  // Angle column
+  td = tr.insertCell();
+  const angleTd = td; // populate later
+  angleTd.className = "angle";
+  angleTd.innerHTML = tetra.angle;
 }
 
 function switchModel( url ) {
